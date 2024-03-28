@@ -1,0 +1,29 @@
+/* Load the dataset */
+data mydata;
+    infile 'path_to_your_data.csv' dsd dlm=','; /* Assuming CSV format */
+    input var1 var2 var3 var4; /* Define variables based on your dataset */
+run;
+
+/* Print the first few observations */
+proc print data=mydata(obs=10);
+run;
+
+/* Descriptive statistics */
+proc means data=mydata;
+    var var1 var2 var3 var4; /* Specify variables for analysis */
+run;
+
+/* Frequency analysis */
+proc freq data=mydata;
+    tables var1 var2; /* Specify variables for frequency analysis */
+run;
+
+/* Simple bar chart */
+proc sgplot data=mydata;
+    vbar var1 / datalabel;
+run;
+
+/* Scatter plot */
+proc sgplot data=mydata;
+    scatter x=var1 y=var2;
+run;
