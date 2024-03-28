@@ -25,7 +25,7 @@ rm data.zip
 
 # Step 6: Text parsing
 echo "Parsing text files"
-# For example, parse each text file in the directory
+# Parse each text file in the directory
 for file in *.txt; do
     echo "Parsing $file"
     # Add your text parsing logic here
@@ -33,7 +33,7 @@ done
 
 # Step 7: Basic data cleaning functions
 echo "Performing basic data cleaning"
-# For example, remove any lines containing certain keywords
+# Remove any lines containing certain keywords
 for file in *.csv; do
     echo "Cleaning $file"
     sed -i '/keyword/d' "$file"
