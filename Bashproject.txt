@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Define variables
+directory_name="my_project"
+file_url="https://example.com/data.zip"
+
+# Step 1: Create a directory
+echo "Creating directory: $directory_name"
+mkdir "$directory_name"
+
+# Step 2: Change to the new directory
+cd "$directory_name" || exit
+
+# Step 3: Download the file
+echo "Downloading file from: $file_url"
+wget "$file_url"
+
+# Step 4: Extract the contents
+echo "Extracting file contents"
+unzip data.zip
+
+# Step 5: Clean up - remove the downloaded zip file
+echo "Cleaning up"
+rm data.zip
+
+# Step 6: Text parsing
+echo "Parsing text files"
+# For example, parse each text file in the directory
+for file in *.txt; do
+    echo "Parsing $file"
+    # Add your text parsing logic here
+done
+
+# Step 7: Basic data cleaning functions
+echo "Performing basic data cleaning"
+# For example, remove any lines containing certain keywords
+for file in *.csv; do
+    echo "Cleaning $file"
+    sed -i '/keyword/d' "$file"
+done
+
+echo "Project setup complete!"
