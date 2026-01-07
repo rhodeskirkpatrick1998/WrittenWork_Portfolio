@@ -16,5 +16,5 @@ Causal inference study using regression discontinuity design to estimate policy 
 ### PandemicUnemploymentAssistance_and_LaborForceParticipation.pdf
 Empirical analysis examining the relationship between Pandemic Unemployment Assistance and labor force participation using applied econometric methods.
 
-### Global Savings Glut.docx
+### Global Savings Glut.pdf
 Long-form analytical essay exploring structural savings imbalances and macroeconomic dynamics in the global economy.
