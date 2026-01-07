@@ -7,11 +7,8 @@ Distributed data processing and visualization using PySpark RDDs, emphasizing la
 ### Credit_Fraud_Detection.ipynb
 Applied machine learning project focused on fraud detection, addressing class imbalance, feature engineering, and evaluation in a real-world risk setting.
 
-### Final_ECN522-Oregon2023Non-FarmPayrollForecast.pdf
-Time-series forecasting of Oregon non-farm payroll employment using ARIMA/VAR-style models, including diagnostics and policy-relevant interpretation.
-
 ### Oregon2023Non-FarmPayrollForecast.pdf
-Updated and refined version of the Oregon non-farm payroll forecast with revised data and improved presentation.
+Time-series forecasting of Oregon non-farm payroll employment using ARIMA/VAR-style models, including diagnostics and policy-relevant interpretation.
 
 ### HuaiRiver_DiscontinuityDesign.pdf
 Causal inference study using regression discontinuity design to estimate policy impacts, emphasizing identification strategy and robustness.
